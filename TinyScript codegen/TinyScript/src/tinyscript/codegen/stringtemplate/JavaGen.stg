@@ -1,0 +1,15 @@
+java(packageName, className, functions, mainBody) ::= <<
+package <packageName>;
+
+public class <className> {
+    <functions; separator="\n">
+
+    public static void main(String[] args) {
+        <mainBody>
+    }
+}
+>>
+
+statements(statement) ::= <<
+<statement; separator="\n">
+>>

@@ -1,0 +1,26 @@
+int add(int a, int b) {
+    return a + b;
+}
+
+main {
+    int a = 1 + 2 + 3;
+    string s = "apple";
+    bool b = true;
+    var i = a * 2;
+
+    while (i < 15) {
+        i = i + 1;
+        print("i increased");
+    }
+
+    if (b) {
+        add(1, 2);
+    }
+    else {
+        print("not true");
+    }
+}
+
+void print(string s) {
+    // ...
+}
